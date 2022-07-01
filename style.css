@@ -16,16 +16,33 @@ img {
     width: 50%;
 }
 
-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:40%;
+#container {
+    background-color: grey;
+    border: 5px solid  rgb(32, 39, 39);
+    height: 275px;
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: cursive;
+    opacity: 0.80;
+}
+
+#button {
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
 
     background-color: grey;
-    border: 2px solid  darkslategrey;
+    border: 10px solid  rgb(32, 37, 37);
     color: white;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 22px;;
+    font-family: cursive;
     opacity: 0.40;
+}
+
+#output {
+    margin: 25px;
+    font-size: 22px;
+    color: white;
 }
